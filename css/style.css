@@ -194,9 +194,11 @@ ul.menu li a {
   }
 
   /* servicios */
+  
   .section__service__article {
     margin-top: 80px;
-    display: inline-flex flex-wrap: nowrap;
+    
+    flex-wrap: nowrap;
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
