@@ -8,7 +8,7 @@
 
 }
 
-/* MOBILE FIRST */
+/* DESKTOP */
 h2 {
   vertical-align: center;
   text-align: center;
@@ -28,7 +28,7 @@ body {
   justify-content: space-between;
   background: linear-gradient(to left, rgba(50, 33, 58), white);
   color: #FFF;
-  height: 50px;
+  height: 70px;
   padding: 1em;
   position: fixed;
   width: 100%;
@@ -40,11 +40,12 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+ 
 
 }
 
 .menu>li {
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
   overflow: hidden;
 }
 
@@ -157,10 +158,15 @@ ul.menu li a {
   .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+  /* INDEX */
+
+  .section-1__photo__img{
+    padding-top: 40px;
+  }
 
   /* nosotros */
   .us__article {
-    margin-top: 80px;
+    /* margin-top: 10px; */
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -262,14 +268,21 @@ ul.menu li a {
   }
 
   .us__article {
-    margin-top: 80px;
+    /* margin-top: 10px; */
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
   }
-
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
   .us__article__div {
     text-align: center;
   }
@@ -279,7 +292,7 @@ ul.menu li a {
   }
 
   .tam__h1__tablet {
-    padding-top: 100px;
+    /* padding-top: 50px; */
     font-size: 30px;
   }
 
@@ -292,7 +305,7 @@ ul.menu li a {
 
     width: 600px;
     height: 400px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     border-radius: 10px;
     box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 
@@ -306,16 +319,22 @@ ul.menu li a {
 
 
   .us__article__div__h1 {
-    padding-top: 80PX;
-    margin-top: 35px;
+    /* padding-top: 10PX;
+    margin-top: 35px; */
     margin-bottom: 35px;
 
+  }
+  header{
+    height: 100px;
   }
 
   .us__picture__image-2 {
     margin-left: 60px;
   }
-
+  /* INDEX */
+.section-1__photo__img{
+ padding-top: 100PX;
+}
   /* SECCION SERVICIOS */
 
   .section__service__article {
@@ -397,16 +416,36 @@ ul.menu li a {
 
 
 
-#grilla {
+.grid {
   display: grid;
   grid-template-areas:
+    "header"
     "section-1"
     "section-2"
     "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 3fr 3fr 1fr;
+  grid-template-rows: .5fr 3fr 3fr 1fr;
 
 }
+nav{
+  grid-area:nav;
+}
+.header__title__main-name{
+  text-align: left;
+  justify-content: left;
+  align-items: flex-end;
+}
+.s{
+  width: 100%;
+}
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+}
+
 
 .text__center {
   text-align: center;
@@ -419,7 +458,7 @@ ul.menu li a {
 }
 
 .section-1__photo__img {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .align__item {
@@ -553,7 +592,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 80px;
+  /* margin-top: 10px; */
 
 
 }
@@ -573,11 +612,11 @@ img {
   margin-bottom: 35px;
 }
 
-.us__article__div__p-1 {}
+
 
 
 .us__article__div__h1 {
-  padding-top: 80PX;
+  padding-top: 50PX;
   margin-top: 35px;
   margin-bottom: 35px;
 
@@ -647,9 +686,7 @@ img {
   margin-bottom: 35px;
 }
 
-/* .section__service__article__div{
-  text-align: center
-} */
+
 
 .section__service__article__div__h1 {
   margin-top: 35px;
@@ -657,12 +694,7 @@ img {
 
 }
 
-/* .section__iframe__article__div{
-  margin-left: 10px;
-} */
-/* .us__picture__image {
-  margin-left: 60px;
-} */
+
 
 /* NUESTROS TRABAJOS */
 /* iframes trabajos */
