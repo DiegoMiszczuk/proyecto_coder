@@ -823,12 +823,12 @@ img {
   right: -10px;
 }
 
- a:hover:before{
+ .animacion a:hover:before{
   width: 112%;
   height: 140%;
 }
 
- a:hover:after{
+ .animacion a:hover:after{
   width: 112%;
   height: 140%;
 }
