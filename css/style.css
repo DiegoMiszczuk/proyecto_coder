@@ -203,12 +203,20 @@ ul.menu li a {
   /* servicios */
   
   .section__service__article {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     margin-top: 80px;
     
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    flex-direction: column;
-    align-content: center;
+    
+  }
+  .section__service__article__div__p-2{
+
+    margin-top: 100px;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .section__service {
@@ -227,6 +235,10 @@ ul.menu li a {
 
   .service__pictures__image {
     padding: 0;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  
   }
 }
 
