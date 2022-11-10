@@ -396,23 +396,11 @@ ul.menu li a {
   .section__service__article__div {
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
-    /* align-items:flex-start; */
     font-size: 20px;
-    /* align-items: center; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     justify-content: space-around;
     flex-direction: row;
   }
-  .section__service__article__div__h1{
-    /* align-items: center; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-around; */
-    /* flex-direction: row; */
-    
-  }
+  
 }
 
 /* VISTA TABLET END */
