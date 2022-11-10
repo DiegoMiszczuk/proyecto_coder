@@ -659,7 +659,7 @@ img {
 }
 
 .service__pictures__image {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border-radius: 10px;
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
@@ -667,19 +667,17 @@ img {
 
 .section__service__article__div__h1 {
 
-  padding-top: 80PX;
+  /* padding-top: 80PX; */
   margin-top: 35px;
   margin-bottom: 35px;
   font-size: 18px;
 }
 
-.section__service p {
-  font-size: px;
-}
+
 
 .section__service {
   width: 100%;
-  padding-top: 10PX;
+  /* padding-top: 10PX; */
   background-color: #ccc;
   align-items: center;
   display: flex;
