@@ -1,0 +1,25 @@
+
+@import "variables";
+
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+h2 {
+	vertical-align: center;
+	text-align: center;
+}
+html {
+	margin: 0;
+	height: 100%;
+	background-color: $background-color_1;
+}
+body {
+	margin: 0;
+	height: 100%;
+	background-color: $background-color_1;
+}
