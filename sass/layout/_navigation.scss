@@ -1,0 +1,116 @@
+
+@use "../utilities/variables";
+
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background: variables.$background-color_4;
+	color: variables.$color_2;
+	height: 70px;
+	padding: 1em;
+	position: fixed;
+	width: 100%;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+	width: 100%;
+	>li {
+		overflow: hidden;
+	}
+}
+ul.menu {
+	li {
+		a {
+			color: variables.$color_3;
+		}
+	}
+}
+.menu-button-container {
+	display: none;
+	height: 100%;
+	width: 30px;
+	cursor: pointer;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#menu-toggle {
+	display: none;
+	&:checked+.menu-button-container {
+		.menu-button {
+			&::before {
+				margin-top: 0px;
+				transform: rotate(405deg);
+			}
+			background: rgba(255, 255, 255, 0);
+			&::after {
+				margin-top: 0px;
+				transform: rotate(-405deg);
+			}
+		}
+	}
+}
+.menu-button {
+	display: block;
+	background-color: variables.$background-color_2;
+	position: absolute;
+	height: 4px;
+	width: 30px;
+	transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	border-radius: 2px;
+	&::before {
+		display: block;
+		background-color:  variables.$background-color_2;
+		position: absolute;
+		height: 4px;
+		width: 30px;
+		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+		border-radius: 2px;
+		content: '';
+		margin-top: -8px;
+	}
+	&::after {
+		display: block;
+		background-color: variables.$background-color_2;
+		position: absolute;
+		height: 4px;
+		width: 30px;
+		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+		border-radius: 2px;
+		content: '';
+		margin-top: 8px;
+	}
+}
+nav {
+	grid-area: nav;
+}
+.header__title__main-name {
+	text-align: left;
+	justify-content: left;
+	align-items: flex-end;
+}
+.header {
+	h2 {
+		font-size: 50px;
+		margin-top: 20px;
+	}
+	h3 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+}
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

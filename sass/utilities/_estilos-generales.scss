@@ -6,8 +6,8 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: $font-family_1;
-	color: $color_1;
+	font-family: variables.$font-family_1;
+	color: variables.$color_1;
 }
 h2 {
 	vertical-align: center;
@@ -16,10 +16,27 @@ h2 {
 html {
 	margin: 0;
 	height: 100%;
-	background-color: $background-color_1;
+	background-color: variables.$background-color_1;
 }
 body {
 	margin: 0;
 	height: 100%;
-	background-color: $background-color_1;
+	background-color: variables.$background-color_1;
+}
+
+.grid {
+	display: grid;
+	grid-template-areas: "header" "section-1" "section-2" "footer";
+	grid-template-columns: 1fr;
+	grid-template-rows: .5fr 3fr 3fr 1fr;
+}
+#grilla {
+	display: grid;
+	grid-template-areas: "header" "section-1" "section-2" "footer";
+	grid-template-columns: 1fr;
+	grid-template-rows: .5fr 3fr 3fr 1fr;
+}
+
+.section {
+	background-color: variables.$background-color_1;
 }

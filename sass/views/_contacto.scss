@@ -1,0 +1,72 @@
+@use "../utilities/variables";
+
+.form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	padding-top: 110px;
+}
+.form__imputs {
+	max-width: 600px;
+	color: variables.$color_3;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	display: grid;
+	justify-content: center;
+}
+.button {
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+}
+.button__reset {
+	border: #183b56 solid 2px;
+	border-radius: 3px;
+	color: variables.$color_1;
+	margin: 5px 5px;
+	background-color: variables.$background-color_1;
+}
+.button__submit {
+	border: #183b56 solid 2px;
+	border-radius: 3px;
+	color: variables.$color_1;
+	margin: 5px 5px;
+	background-color: variables.$background-color_1;
+}
+#email {
+	margin-bottom: 1rem;
+}
+.titulos-contacto {
+	display: flex;
+}
+.column-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.s {
+	width: 100%;
+}
+.text__center {
+	text-align: center;
+}
+.margin-p {
+	text-align: justify;
+	margin: 20px 20px;
+}
+.section-1__photo__img {
+	margin-top: 50px;
+}
+
+.max-width-img {
+	max-width: 100%;
+}

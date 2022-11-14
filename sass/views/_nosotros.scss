@@ -1,0 +1,25 @@
+.us__article {
+	align-items: flex-end;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.us__article__div {
+	text-align: center;
+}
+.us__pictures__image {
+	margin-bottom: 30px;
+	border-radius: 10px;
+	box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
+}
+.us__article__div__p-2 {
+	margin-bottom: 35px;
+}
+.us__article__div__h1 {
+	padding-top: 50PX;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.us__picture__image-2 {
+	margin-left: 60px;
+}

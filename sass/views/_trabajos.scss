@@ -1,0 +1,34 @@
+
+@use "../utilities/variables";
+
+.section__iframe {
+	background-color: variables.$background-color_1;
+}
+.section__iframe__article__h1 {
+	text-align: center;
+	margin-bottom: 50px;
+	text-decoration: underline;
+	font-size: 1 rem;
+	background-color: variables.$background-color_1;
+}
+.section__iframe__article__div__descripcion {
+	width: 320px;
+	height: 100px;
+	margin-top: 15px;
+}
+.section__iframe__article {
+	padding-left: 15px;
+	background-color: variables.$background-color_1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.zoom {
+	&:hover {
+		border: 4px solid rgba(50, 33, 58);
+		box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
+	}
+}
+.section__iframe__article__div__iframes {
+	border-radius: 10px;
+}

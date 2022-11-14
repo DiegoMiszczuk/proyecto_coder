@@ -1,0 +1,21 @@
+@use "../utilities/variables";
+
+.img-size {
+	height: 150.33px;
+}
+.card-body {
+	background-color: variables.$background-color_5;
+}
+.card-footer {
+	background-color: variables.$background-color_5;
+}
+.gradiente {
+	background: variables.$background-color_4;
+}
+
+.img-principal {
+	object-fit: contain;
+	width: 800px;
+	height: 450px;
+	border-radius: 7px;
+}
