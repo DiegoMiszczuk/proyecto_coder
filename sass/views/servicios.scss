@@ -23,10 +23,9 @@ section{
 				margin-bottom: 35px;
 			}
 		}
-		img{
+		img.service__pictures__image{
 			border-radius: 10px;
-			box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
-
+			box-shadow: variables.$box-shadow
 		}
 	}
 

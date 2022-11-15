@@ -327,7 +327,7 @@ section article div h1 {
   margin-top: 35px;
   margin-bottom: 35px;
 }
-section article img {
+section article img.service__pictures__image {
   border-radius: 10px;
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
