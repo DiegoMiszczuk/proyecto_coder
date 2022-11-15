@@ -243,6 +243,23 @@ nav {
   justify-content: center;
   padding-top: 110px;
 }
+.form .form__imputs {
+  max-width: 600px;
+  color: white;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+.form .form__imputs #email {
+  margin-bottom: 1rem;
+}
+.form div form .button {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
 .form div form .button input {
   width: 200px;
 }
@@ -252,32 +269,12 @@ nav {
   padding-left: 5px;
   padding-top: 5px;
 }
-.form__imputs {
-  max-width: 600px;
-  color: white;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  display: grid;
-  justify-content: center;
-}
-
-.button {
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: center;
-}
-
 section div form div input {
   border: #183b56 solid 2px;
   border-radius: 3px;
   color: #183b56;
   margin: 5px 5px;
   background-color: #ccc;
-}
-
-#email {
-  margin-bottom: 1rem;
 }
 
 .us__article {
