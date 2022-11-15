@@ -343,7 +343,7 @@ section.us article.us__article div.us__pictures img {
   background-color: #ccc;
 }
 
-.section__iframe__article__h1 {
+section.section__iframe h1 {
   text-align: center;
   margin-bottom: 50px;
   text-decoration: underline;
@@ -351,27 +351,24 @@ section.us article.us__article div.us__pictures img {
   background-color: #ccc;
 }
 
-.section__iframe__article__div__descripcion {
-  width: 320px;
-  height: 100px;
-  margin-top: 15px;
-}
-
-.section__iframe__article {
+section.section__iframe article {
   padding-left: 15px;
   background-color: #ccc;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-.zoom:hover {
+section.section__iframe article div iframe {
+  border-radius: 10px;
+}
+section.section__iframe article div iframe:hover {
   border: 4px solid rgb(50, 33, 58);
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
-
-.section__iframe__article__div__iframes {
-  border-radius: 10px;
+section.section__iframe article div.section__iframe__article__div__descripcion {
+  width: 320px;
+  height: 100px;
+  margin-top: 15px;
 }
 
 .img-size {
