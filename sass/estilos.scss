@@ -1,5 +1,5 @@
 
-@use "../sass/utilities/estilos-generales";
+@use "./utilities/estilos-generales";
 @use "layout/footer";
 @use "utilities/variables";
 @use "./layout/navigation";
@@ -10,7 +10,7 @@
 @use "./views/trabajos";
 @use "./views/shop-main";
 @use "./utilities/media";
-@use "utilities/extend";
+@use "./utilities/extend";
 
 
 
