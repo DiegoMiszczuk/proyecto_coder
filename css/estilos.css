@@ -202,28 +202,35 @@ nav {
   align-items: center;
 }
 
-.column-center {
+.section-1 article.section-1_article {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-.text__center {
+.section-1 article.section-1_article div.section-1__photo img {
+  margin-top: 50px;
+}
+.section-1 div.section-1__text {
   text-align: center;
 }
-
-.margin-p {
+.section-1 div.section-1__text p {
   text-align: justify;
   margin: 20px 20px;
 }
 
-.section-1__photo__img {
-  margin-top: 50px;
+.section__2 article.section-2__article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-.max-width-img {
-  max-width: 100%;
+.section__2 article.section-2__article div.section-2__text {
+  text-align: center;
+}
+.section__2 article.section-2__article div.section-2__text p {
+  text-align: justify;
+  margin: 20px 20px;
 }
 
 .form div form input {

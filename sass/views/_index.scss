@@ -1,28 +1,47 @@
 @use "../utilities/variables";
 
 
-.column-center {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
 
 
+.section-1{
+	article.section-1_article{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 
-.text__center {
-	text-align: center;
-}
+		div.section-1__photo{
+			img{
+				margin-top: 50px;
+			}
+			
 
-.margin-p {
-	text-align: justify;
+		}
+	}
+	div.section-1__text{
+		text-align: center;
+		p{
+			text-align: justify;
 	margin: 20px 20px;
+		}
+	}
 }
 
-.section-1__photo__img {
-	margin-top: 50px;
+.section__2{
+	article.section-2__article{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		div.section-2__text{
+			text-align: center;
+			p{
+				text-align: justify;
+				margin: 20px 20px;
+
+			}
+		}
+	}
 }
 
-.max-width-img {
-	max-width: 100%;
-}
