@@ -1,15 +1,41 @@
 @use "../utilities/variables";
+@use "../utilities/extend";
+
+
+
 
 .form {
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
 	justify-content: center;
 	padding-top: 110px;
+
+		div{
+			form{
+				.button{
+					input{
+						width: 200px;
+					}
+				}
+				textarea{
+					border-radius: 5px;
+					box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .1);
+					padding-left: 5px;
+					padding-top: 5px;
+					
+				}
+				input{
+					@extend %style-imputs;
+
+				}
+			}
+		}
+		
 }
 .form__imputs {
 	max-width: 600px;
