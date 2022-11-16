@@ -1,16 +1,16 @@
 
-@use "./utilities/estilos-generales";
-@use "layout/footer";
-@use "utilities/variables";
-@use "./layout/navigation";
-@use "./views/index";
-@use "./views/contacto";
-@use "./views/nosotros";
-@use "./views/servicios.scss";
-@use "./views/trabajos";
-@use "./views/shop-main";
-@use "./utilities/media";
-@use "./utilities/extend";
+@use "../sass/utilities/estilos-generales";
+@use "../sass/layout/footer";
+@use "../sass/utilities/variables";
+@use "../sass/layout/navigation";
+@use "../sass/views/index";
+@use "../sass/views/contacto";
+@use "../sass/views/nosotros";
+@use "../sass/views/servicios.scss";
+@use "../sass/views/trabajos";
+@use "../sass/views/shop-main";
+@use "../sass/utilities/media";
+@use "../sass/utilities/extend";
 
 
 
