@@ -51,11 +51,23 @@
 
 
 
-// .button {
-// 	margin-bottom: 2rem;
-// 	display: flex;
-// 	justify-content: center;
-// }
+
+section{
+	div{
+		form{
+			div{
+				input{
+					border: #183b56 solid 2px;
+					border-radius: 3px;
+					color: variables.$color_1;
+					margin: 5px 5px;
+					background-color: variables.$background-color_1;
+				}
+			}
+		}
+	}
+}
+
 
 
 
