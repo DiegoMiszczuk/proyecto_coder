@@ -1,3 +1,9 @@
+@use "../utilities/variables";
 
 
-;
+@mixin borde-sombra {
+    &:hover {
+        border: 4px solid rgba(50, 33, 58);
+        box-shadow: variables.$box-shadow}
+    
+}
