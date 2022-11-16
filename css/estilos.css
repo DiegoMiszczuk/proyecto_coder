@@ -634,5 +634,20 @@ section.section-2 div.section-2__imagenes {
     flex-direction: row;
   }
 }
+.fa-square-twitter {
+  background-color: #55acee;
+}
+
+.fa-square-whatsapp {
+  background-color: #62ec3f;
+}
+
+.fa-square-instagram {
+  background-color: #eb4cc8;
+}
+
+.fa-youtube {
+  background-color: red;
+}
 
 /*# sourceMappingURL=estilos.css.map */

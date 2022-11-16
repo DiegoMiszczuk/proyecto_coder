@@ -1,0 +1,12 @@
+$redes: ( 
+fa-square-twitter: #55acee,
+fa-square-whatsapp:  #62ec3f,
+fa-square-instagram: #eb4cc8,
+fa-youtube: red
+); 
+
+@each $red, $color in $redes {
+   .#{$red} {
+       background-color: $color;
+   }
+}
