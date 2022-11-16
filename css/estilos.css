@@ -28,14 +28,14 @@ body {
   display: grid;
   grid-template-areas: "header" "section-1" "section-2" "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 3fr 3fr 1fr;
+  grid-template-rows: 0.5fr 3fr 3fr 150px;
 }
 
 #grilla {
   display: grid;
   grid-template-areas: "header" "section-1" "section-2" "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 3fr 3fr 1fr;
+  grid-template-rows: 0.5fr 3fr 3fr 100px;
 }
 
 .section {
@@ -208,6 +208,9 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.section-1 article.section-1_article div.section-1__text span.section-1__text__span {
+  font-size: 50px;
+}
 .section-1 article.section-1_article div.section-1__photo img {
   margin-top: 50px;
 }
@@ -215,8 +218,8 @@ nav {
   text-align: center;
 }
 .section-1 div.section-1__text p {
-  text-align: justify;
   margin: 20px 20px;
+  font-size: 50px;
 }
 
 .section__2 article.section-2__article {
@@ -229,8 +232,8 @@ nav {
   text-align: center;
 }
 .section__2 article.section-2__article div.section-2__text p {
-  text-align: justify;
   margin: 20px 20px;
+  font-size: 50px;
 }
 
 .form div form input {

@@ -28,13 +28,13 @@ body {
 	display: grid;
 	grid-template-areas: "header" "section-1" "section-2" "footer";
 	grid-template-columns: 1fr;
-	grid-template-rows: .5fr 3fr 3fr 1fr;
+	grid-template-rows: .5fr 3fr 3fr 150px;
 }
 #grilla {
 	display: grid;
 	grid-template-areas: "header" "section-1" "section-2" "footer";
 	grid-template-columns: 1fr;
-	grid-template-rows: .5fr 3fr 3fr 1fr;
+	grid-template-rows: .5fr 3fr 3fr 100px;
 }
 
 .section {
