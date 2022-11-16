@@ -276,14 +276,6 @@ nav {
   padding-left: 5px;
   padding-top: 5px;
 }
-section div form div input {
-  border: #183b56 solid 2px;
-  border-radius: 3px;
-  color: #183b56;
-  margin: 5px 5px;
-  background-color: #ccc;
-}
-
 section.us article.us__article {
   align-items: flex-end;
   display: flex;
