@@ -41,4 +41,21 @@ section.section__iframe{
 	}
 }
 
+section.section-2{
+	div.parrafo-trabajos{
+		display: flex;
+		text-align: center;
+		margin-top: 100px;
+		font-size: 50px;
+
+	}
+	display: flex;
+	align-items: flex-start;
+	div.section-2__imagenes{
+		display: flex;
+		flex-wrap: nowrap;
+
+
+	}
+}
 

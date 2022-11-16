@@ -304,6 +304,16 @@ section.us article.us__article div.us__pictures img {
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
 
+section.section-d {
+  display: flex;
+}
+section.section-d div.parrafo-nosotros {
+  display: flex;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
 section {
   width: 100%;
   background-color: #ccc;
@@ -362,6 +372,21 @@ section.section__iframe div.section__iframe__article__div__descripcion {
   width: 320px;
   height: 100px;
   margin-top: 15px;
+}
+
+section.section-2 {
+  display: flex;
+  align-items: flex-start;
+}
+section.section-2 div.parrafo-trabajos {
+  display: flex;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+section.section-2 div.section-2__imagenes {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .img-size {
