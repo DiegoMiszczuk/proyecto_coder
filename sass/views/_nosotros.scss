@@ -1,6 +1,8 @@
 @use "../utilities/variables";
 
 section.us{
+	display: flex;
+	align-content:flex-start;
 	article.us__article{
 		align-items: flex-end;
 		display: flex;

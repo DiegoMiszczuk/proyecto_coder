@@ -287,6 +287,10 @@ section div form div input {
   background-color: #ccc;
 }
 
+section.us {
+  display: flex;
+  align-content: flex-start;
+}
 section.us article.us__article {
   align-items: flex-end;
   display: flex;
