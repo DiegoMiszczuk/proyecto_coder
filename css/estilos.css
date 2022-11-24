@@ -202,6 +202,9 @@ nav {
   align-items: center;
 }
 
+.section-1 {
+  align-items: flex-start;
+}
 .section-1 article.section-1_article {
   display: flex;
   flex-direction: column;
@@ -209,17 +212,14 @@ nav {
   justify-content: center;
 }
 .section-1 article.section-1_article div.section-1__text span.section-1__text__span {
-  font-size: 50px;
-}
-.section-1 article.section-1_article div.section-1__photo img {
-  margin-top: 50px;
+  font-size: 40px;
 }
 .section-1 div.section-1__text {
   text-align: center;
 }
 .section-1 div.section-1__text p {
-  margin: 20px 20px;
-  font-size: 50px;
+  margin: 80px 20px 20px 20px;
+  font-size: 2rem;
 }
 
 .section__2 article.section-2__article {
@@ -233,7 +233,7 @@ nav {
 }
 .section__2 article.section-2__article div.section-2__text p {
   margin: 20px 20px;
-  font-size: 50px;
+  font-size: 2rem;
 }
 
 .form div form input {
@@ -297,10 +297,15 @@ section.us article.us__article {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+section.us article.us__article p.us__article__div__p-1 {
+  font-size: 26px;
+}
 section.us article.us__article p.us__article__div__p-2 {
+  font-size: 26px;
   margin-bottom: 35px;
 }
 section.us article.us__article h1 {
+  font-size: 40px;
   padding-top: 50PX;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -312,13 +317,20 @@ section.us article.us__article div.us__pictures img {
 }
 
 section.section-d {
+  align-content: flex-start;
   display: flex;
+  align-items: flex-start;
+}
+section.section-d div img {
+  align-items: flex-start;
+  margin-top: 50px;
+  box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
 section.section-d div.parrafo-nosotros {
   display: flex;
   text-align: center;
-  margin-top: 100px;
-  font-size: 50px;
+  margin-top: 80px;
+  font-size: 26px;
 }
 
 section {
@@ -464,17 +476,14 @@ section.section-2 div.section-2__imagenes {
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  .section-1__photo__img {
-    padding-top: 40px;
-  }
   .us__article {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
   }
   .us__pictures {
     display: flex;

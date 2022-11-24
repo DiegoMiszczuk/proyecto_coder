@@ -4,6 +4,7 @@
 
 
 .section-1{
+	align-items: flex-start;
 	article.section-1_article{
 		display: flex;
 		flex-direction: column;
@@ -11,23 +12,17 @@
 		justify-content: center;
 		div.section-1__text{
 			span.section-1__text__span{
-				font-size: 50px;
+				font-size: 40px;
 			}
 		}
-		div.section-1__photo{
-			img{
-				margin-top: 50px;
-			}
-			
-
-		}
+		
 	}
 	div.section-1__text{
 		text-align: center;
 		p{
 			// text-align: justify;
-			margin: 20px 20px;
-			font-size: 50px;
+			margin: 80px 20px 20px 20px;
+			font-size: 2rem;
 		}
 	}
 }
@@ -45,7 +40,7 @@
 			p{
 				// text-align: justify;
 				margin: 20px 20px;
-				font-size: 50px;
+				font-size: 2rem;
 
 			}
 		}

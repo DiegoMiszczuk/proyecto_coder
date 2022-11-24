@@ -52,17 +52,15 @@
 			}
 		}
 	}
-	.section-1__photo__img {
-		padding-top: 40px;
-	}
+	
 	.us__article {
-		align-items: center;
+		align-items: flex-start;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
 		flex-direction: column;
 		justify-content: center;
-		align-content: center;
+		align-content: flex-start;
 	}
 	.us__pictures {
 		display: flex;
