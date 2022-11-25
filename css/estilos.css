@@ -203,6 +203,9 @@ nav {
 }
 
 .section-1 {
+  background-image: url(../../img/fondo-oscuro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   align-items: flex-start;
 }
 .section-1 article.section-1_article {
@@ -212,27 +215,36 @@ nav {
   justify-content: center;
 }
 .section-1 article.section-1_article div.section-1__text span.section-1__text__span {
+  color: antiquewhite;
   font-size: 40px;
 }
 .section-1 div.section-1__text {
   text-align: center;
 }
 .section-1 div.section-1__text p {
+  color: aliceblue;
   margin: 80px 20px 20px 20px;
   font-size: 2rem;
+  box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
+  border-radius: 15px;
 }
 
 .section__2 article.section-2__article {
+  background-image: url(../../img/fondo-vidrio.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .section__2 article.section-2__article div.section-2__text {
+  background-color: #ccc;
+  filter: opacity(0.5);
   text-align: center;
 }
 .section__2 article.section-2__article div.section-2__text p {
+  color: black;
   margin: 20px 20px;
+  font-size: 2rem;
   font-size: 2rem;
 }
 
@@ -279,7 +291,12 @@ nav {
   padding-left: 5px;
   padding-top: 5px;
 }
-section div form div input {
+section.form {
+  background-image: url(../../img/fondo-vidrio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.form div form div input {
   border: #183b56 solid 2px;
   border-radius: 3px;
   color: #183b56;
@@ -330,7 +347,7 @@ section.section-d div img {
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
 section.section-d div.parrafo-nosotros {
-  color: #ae24ee;
+  color: antiquewhite;
   display: flex;
   text-align: center;
   margin-top: 150px;
@@ -353,10 +370,13 @@ section article {
   margin-top: 60px;
   width: 100%;
 }
+section article div p.section__service__article__div__p-1 {
+  font-size: 26px;
+}
 section article div h1 {
   margin-top: 35px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 40px;
   margin-top: 35px;
   margin-bottom: 35px;
 }
@@ -377,6 +397,9 @@ section.section__iframe h1 {
   background-color: #ccc;
 }
 
+section.section__iframe h1 {
+  font-size: 40px;
+}
 section.section__iframe article {
   padding-left: 15px;
   background-color: #ccc;
@@ -398,14 +421,24 @@ section.section__iframe div.section__iframe__article__div__descripcion {
 }
 
 section.section-2 {
+  background-image: url(../../img/fondo-trabajos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
   display: flex;
   align-items: flex-start;
+}
+section.section-2 div.section-2__imagenes .image2:hover {
+  -webkit-transform: scale(0.8);
 }
 section.section-2 div.parrafo-trabajos {
   display: flex;
   text-align: center;
   margin-top: 100px;
-  font-size: 50px;
+  font-size: 2rem;
+}
+section.section-2 div.parrafo-trabajos p {
+  color: white;
 }
 section.section-2 div.section-2__imagenes {
   display: flex;

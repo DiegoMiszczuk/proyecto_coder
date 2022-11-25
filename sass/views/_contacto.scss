@@ -28,6 +28,7 @@
 	}
 	div {
 		form {
+			
 			.button {
 				margin-bottom: 2rem;
 				display: flex;
@@ -51,8 +52,11 @@
 
 
 
-
-section{
+section.form{
+	background-image: url(../../img/fondo-vidrio.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	// object-fit: contain;
 	div{
 		form{
 			div{

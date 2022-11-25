@@ -18,6 +18,9 @@ section.section__iframe{
 }
 
 section.section__iframe{
+	h1{
+		font-size: 40px;
+	}
 	article{
 		padding-left: 15px;
 		background-color: variables.$background-color_1;
@@ -42,12 +45,25 @@ section.section__iframe{
 }
 
 section.section-2{
+	background-image: url(../../img/fondo-trabajos.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	object-fit: contain;
+	div.section-2__imagenes{
+.image2:hover{
+	-webkit-transform:scale(0.8);
+}
+		}
+
 	div.parrafo-trabajos{
 		display: flex;
 		text-align: center;
 		margin-top: 100px;
-		font-size: 50px;
-
+		font-size: 2rem;
+		p{
+			color:white
+		}
+		
 	}
 	display: flex;
 	align-items: flex-start;
@@ -58,4 +74,3 @@ section.section-2{
 
 	}
 }
-
