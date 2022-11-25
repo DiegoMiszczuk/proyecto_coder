@@ -1,57 +1,65 @@
 @use "../utilities/variables";
 
-section.us{
+section.us {
 	display: flex;
-	align-content:flex-start;
-	article.us__article{
+	align-content: flex-start;
+
+	article.us__article {
 		align-items: flex-end;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		p.us__article__div__p-1{
-			font-size: 26px ;
+
+		p.us__article__div__p-1 {
+			font-size: 26px;
 		}
-		p.us__article__div__p-2{
+
+		p.us__article__div__p-2 {
 			font-size: 26px;
 			margin-bottom: 35px;
 		}
-		h1{
+
+		h1 {
 			font-size: 40px;
 			padding-top: 50PX;
 			margin-top: 35px;
 			margin-bottom: 35px;
 		}
-		div.us__pictures{
-			img{
+
+		div.us__pictures {
+			img {
 				margin-bottom: 30px;
 				border-radius: 10px;
 				box-shadow: variables.$box-shadow;
-				
+
 			}
 
-		}	
+		}
 	}
 }
 
-section.section-d{
-	align-content: flex-start;
-	div{
-		img{
+section.section-d {
+	background-image: url(../../img/fondo-moderno.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	object-fit: contain;
+	div {
+		
+		img {
 			align-items: flex-start;
 			margin-top: 50px;
 			box-shadow: variables.$box-shadow;
 		}
 	}
+
 	display: flex;
 	align-items: flex-start;
-	div.parrafo-nosotros{
-		
+
+	div.parrafo-nosotros {
+		color: #ae24ee;
 		display: flex;
 		text-align: center;
-		margin-top: 80px;
-		font-size: 26px;
+		margin-top: 150px;
+		font-size: 2rem;
 	}
 }
-
-
-

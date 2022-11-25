@@ -317,7 +317,10 @@ section.us article.us__article div.us__pictures img {
 }
 
 section.section-d {
-  align-content: flex-start;
+  background-image: url(../../img/fondo-moderno.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
   display: flex;
   align-items: flex-start;
 }
@@ -327,10 +330,11 @@ section.section-d div img {
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
 section.section-d div.parrafo-nosotros {
+  color: #ae24ee;
   display: flex;
   text-align: center;
-  margin-top: 80px;
-  font-size: 26px;
+  margin-top: 150px;
+  font-size: 2rem;
 }
 
 section {
@@ -476,6 +480,12 @@ section.section-2 div.section-2__imagenes {
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
+  section.section-d {
+    align-content: flex-start;
+  }
+  section.us article.us__article {
+    align-items: center;
+  }
   .us__article {
     align-items: flex-start;
     display: flex;
@@ -483,7 +493,7 @@ section.section-2 div.section-2__imagenes {
     justify-content: space-around;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
   }
   .us__pictures {
     display: flex;
@@ -492,8 +502,8 @@ section.section-2 div.section-2__imagenes {
   .us__pictures__image {
     margin-top: 30px;
     margin-bottom: 20px;
-    width: 350px;
-    height: 220px;
+    width: 450px;
+    height: 320px;
   }
   .us__article__div {
     text-align: center;
@@ -554,6 +564,9 @@ section.section-2 div.section-2__imagenes {
     position: fixed;
     width: 100%;
     font-size: 15px;
+  }
+  section.section-d {
+    align-content: flex-start;
   }
   .header__title__main-name {
     text-align: center;
