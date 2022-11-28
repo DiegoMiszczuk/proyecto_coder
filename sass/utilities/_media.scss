@@ -123,6 +123,9 @@
 		width: 370px;
 		height: 220px;
 	}
+	section.section-2{
+		align-content: flex-start;
+	}
 }
 @media (min-width: 768px) and (max-width:1023px) {
 	.top-nav {

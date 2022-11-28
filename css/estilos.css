@@ -203,9 +203,6 @@ nav {
 }
 
 .section-1 {
-  background-image: url(../../img/fondo-oscuro.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   align-items: flex-start;
 }
 .section-1 article.section-1_article {
@@ -215,20 +212,21 @@ nav {
   justify-content: center;
 }
 .section-1 article.section-1_article div.section-1__text span.section-1__text__span {
-  color: antiquewhite;
   font-size: 40px;
 }
 .section-1 div.section-1__text {
   text-align: center;
 }
 .section-1 div.section-1__text p {
-  color: aliceblue;
   margin: 80px 20px 20px 20px;
   font-size: 2rem;
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
-  border-radius: 15px;
 }
 
+.section__2 .section-2__article .section-2__photo:hover .section-2__photo__img {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
 .section__2 article.section-2__article {
   background-image: url(../../img/fondo-vidrio.jpg);
   display: flex;
@@ -307,9 +305,12 @@ section.form div form div input {
 section.us {
   display: flex;
   align-content: flex-start;
+  align-items: baseline;
+  align-items: center;
 }
 section.us article.us__article {
-  align-items: flex-end;
+  align-items: center;
+  margin-left: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -323,14 +324,13 @@ section.us article.us__article p.us__article__div__p-2 {
 }
 section.us article.us__article h1 {
   font-size: 40px;
-  padding-top: 50PX;
-  margin-top: 35px;
   margin-bottom: 35px;
 }
 section.us article.us__article div.us__pictures img {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
+  margin-left: 15px;
 }
 
 section.section-d {
@@ -338,11 +338,12 @@ section.section-d {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
+}
+section.section-d div {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
 }
 section.section-d div img {
-  align-items: flex-start;
   margin-top: 50px;
   box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
 }
@@ -354,7 +355,10 @@ section.section-d div.parrafo-nosotros {
   font-size: 2rem;
 }
 
-section {
+section.section__service {
+  background-image: url(../../img/fondo-oscuro-azul.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   background-color: #ccc;
   align-items: center;
@@ -362,7 +366,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-section article {
+section.section__service article {
   align-items: flex-end;
   display: flex;
   flex-wrap: wrap;
@@ -370,21 +374,142 @@ section article {
   margin-top: 60px;
   width: 100%;
 }
-section article div p.section__service__article__div__p-1 {
+section.section__service article div p.section__service__article__div__p-1 {
   font-size: 26px;
 }
-section article div h1 {
+section.section__service article div h1 {
+  color: antiquewhite;
   margin-top: 35px;
   margin-bottom: 35px;
   font-size: 40px;
   margin-top: 35px;
   margin-bottom: 35px;
 }
-section article img.service__pictures__image {
-  border-radius: 10px;
-  box-shadow: rgba(31, 30, 30, 0.2) 7px 7px 7px 7px;
+section.section__service article div p {
+  color: antiquewhite;
+}
+section.section__service article .service__pictures:hover img.service__pictures__image {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
+.section-2 img {
+  padding-top: 15px;
+}
+
+.section-3 {
+  margin-top: 100px;
+}
+
+:root {
+  --background-dark: #2d3548;
+  --text-light: rgba(255,255,255,0.6);
+  --text-lighter: rgba(255,255,255,0.9);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 14px;
+}
+
+body {
+  height: 100%;
+}
+
+.hero-section {
+  align-items: flex-start;
+  background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  padding: var(--spacing-xxl) var(--spacing-l);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+}
+.card-grid:hover > .card-1:not(:hover) .card__background {
+  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+.card-1 {
+  list-style: none;
+  position: relative;
+}
+.card-1:before {
+  content: "";
+  display: block;
+  padding-bottom: 150%;
+  width: 100%;
+}
+.card-1:hover .card__background {
+  transform: scale(1.05) translateZ(0);
+}
+
+.card__background {
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--spacing-l);
+  bottom: 0;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  transform: scale(1) translateZ(0);
+  transition: filter 200ms linear, transform 200ms linear;
+}
+
+.card__content {
+  left: 0;
+  padding: var(--spacing-l);
+  position: absolute;
+  top: 0;
+}
+
+.card__category {
+  color: #FFF;
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-s);
+  text-transform: uppercase;
+}
+
+.card__heading {
+  color: #FFF;
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+  line-height: 1.4;
+}
+
+@media (min-width: 540px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 .section__iframe {
   background-color: #ccc;
 }
@@ -425,6 +550,8 @@ section.section-2 {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
+  flex-wrap: wrap;
+  justify-content: center;
   display: flex;
   align-items: flex-start;
 }
@@ -582,6 +709,9 @@ section.section-2 div.section-2__imagenes {
     margin-bottom: 20px;
     width: 370px;
     height: 220px;
+  }
+  section.section-2 {
+    align-content: flex-start;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {

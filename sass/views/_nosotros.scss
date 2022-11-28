@@ -3,9 +3,12 @@
 section.us {
 	display: flex;
 	align-content: flex-start;
+	align-items: baseline;
+	align-items: center;
 
 	article.us__article {
-		align-items: flex-end;
+		align-items: center;
+		margin-left: 15px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -21,16 +24,17 @@ section.us {
 
 		h1 {
 			font-size: 40px;
-			padding-top: 50PX;
-			margin-top: 35px;
+			// padding-top: 40PX;
+			// margin-top: 10px;
 			margin-bottom: 35px;
 		}
 
 		div.us__pictures {
 			img {
-				margin-bottom: 30px;
+				margin-bottom: 40px;
 				border-radius: 10px;
 				box-shadow: variables.$box-shadow;
+				margin-left: 15px;
 
 			}
 
@@ -41,19 +45,22 @@ section.us {
 section.section-d {
 	background-image: url(../../img/fondo-moderno.jpg);
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: cover;
 	object-fit: contain;
+
 	div {
-		
+		display: flex;
+		justify-content: center;
+
 		img {
-			align-items: flex-start;
+
 			margin-top: 50px;
 			box-shadow: variables.$box-shadow;
 		}
 	}
 
-	display: flex;
-	align-items: flex-start;
+	// display: flex;
+	// align-items: flex-start;
 
 	div.parrafo-nosotros {
 		color: antiquewhite;

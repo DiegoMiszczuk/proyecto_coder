@@ -49,6 +49,8 @@ section.section-2{
 	background-repeat: no-repeat;
 	background-size:cover;
 	object-fit: contain;
+	flex-wrap: wrap;
+	justify-content: center;
 	div.section-2__imagenes{
 .image2:hover{
 	-webkit-transform:scale(0.8);
