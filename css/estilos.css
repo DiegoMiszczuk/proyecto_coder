@@ -290,7 +290,7 @@ nav {
   padding-top: 5px;
 }
 section.form {
-  background-image: url(../../img/fondo-vidrio.jpg);
+  background-image: url(./../img/fondo-vidrio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -334,7 +334,7 @@ section.us article.us__article div.us__pictures img {
 }
 
 section.section-d {
-  background-image: url(../../img/fondo-moderno.jpg);
+  background-image: url(./../img/fondo-moderno.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
@@ -356,7 +356,7 @@ section.section-d div.parrafo-nosotros {
 }
 
 section.section__service {
-  background-image: url(../../img/fondo-oscuro-azul.jpg);
+  background-image: url(./../img/fondo-oscuro-azul.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -518,7 +518,7 @@ section.section__iframe h1 {
   text-align: center;
   margin-bottom: 50px;
   text-decoration: underline;
-  font-size: 1 rem;
+  font-size: 1rem;
   background-color: #ccc;
 }
 
@@ -546,7 +546,7 @@ section.section__iframe div.section__iframe__article__div__descripcion {
 }
 
 section.section-2 {
-  background-image: url(../../img/fondo-trabajos.jpg);
+  background-image: url(./../img/fondo-trabajos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
